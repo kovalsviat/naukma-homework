@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "bbc13696-1615-480c-92e1-460609cd0204",
+		"name": "HomeWork",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25782551"
+	},
+	"item": [
+		{
+			"name": "weather_api",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\":\"qqqqqqq22121q\",\n    \"requester_name\":\"Sviatoslav Koval\",\n    \"location\": \"Berlin, Germany\",\n    \"date\":\"2023-02-20\"\n    \n}"
+				},
+				"url": {
+					"raw": "http://18.188.211.162:8000/homeworkSaaS/check",
+					"protocol": "http",
+					"host": [
+						"18",
+						"188",
+						"211",
+						"162"
+					],
+					"port": "8000",
+					"path": [
+						"homeworkSaaS",
+						"check"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
