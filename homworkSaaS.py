@@ -3,7 +3,7 @@ import datetime as dt
 import json
 from flask import Flask, jsonify, request
 #here your api token
-API_TOKEN = "qqqqqqq22121q"
+API_TOKEN = ""
 #put here your api key
 RSA_API_KEY = ""
 app = Flask(__name__)
