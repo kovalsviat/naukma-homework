@@ -2,10 +2,10 @@ import requests
 import datetime as dt
 import json
 from flask import Flask, jsonify, request
-
+#here your api token
 API_TOKEN = "qqqqqqq22121q"
-
-RSA_API_KEY = "b3f6baaf18mshb3fb132db2d8e42p1e628bjsn6e874f9030de"
+#put here your api key
+RSA_API_KEY = ""
 app = Flask(__name__)
 
 def correct_request(querystring_start):
